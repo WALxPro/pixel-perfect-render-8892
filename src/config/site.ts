@@ -15,7 +15,7 @@ export const retailers = [
   { name: "Barnes & Noble", url: "https://www.barnesandnoble.com" },
 ];
 
-export const amazonUrl = retailers[0].url;
+export const amazonUrl = "https://www.amazon.com";
 
 export const socials = [
   { name: "Facebook", url: "https://facebook.com" },

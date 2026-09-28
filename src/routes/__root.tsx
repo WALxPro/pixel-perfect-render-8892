@@ -8,9 +8,16 @@ import {
   Scripts,
 } from "@tanstack/react-router";
 import { useEffect, type ReactNode } from "react";
+import { useRouterState } from "@tanstack/react-router";
+import { AnimatePresence, motion } from "motion/react";
+import { Toaster } from "sonner";
 
 import appCss from "../styles.css?url";
 import { reportLovableError } from "../lib/lovable-error-reporting";
+import { Header } from "@/components/Header";
+import { Footer } from "@/components/Footer";
+import { Loader } from "@/components/effects/Loader";
+import { CursorGlow } from "@/components/effects/CursorGlow";
 
 function NotFoundComponent() {
   return (

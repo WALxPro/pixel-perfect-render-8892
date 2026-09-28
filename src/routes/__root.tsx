@@ -18,6 +18,8 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { Loader } from "@/components/effects/Loader";
 import { CursorGlow } from "@/components/effects/CursorGlow";
+import { Atmosphere, Embers } from "@/components/effects/Atmosphere";
+import { WolfEyes } from "@/components/effects/WolfEyes";
 
 function NotFoundComponent() {
   return (
